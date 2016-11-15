@@ -1,0 +1,175 @@
+body.application {
+    background: #fff;
+}
+
+header {
+    background: url(../img/fundo.jpg);
+    background-size:cover;
+    padding-top: 60px;
+    color: #ecf0f1;
+}
+
+header p {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: #dee3e6 ;
+    font-family: "Lato", sans-serif;
+}
+
+header .actions {
+    margin-bottom: 80px;   
+}
+
+header .actions > *:first-child {
+    margin-right: 20px;   
+}
+
+header h1 {
+    font-size: 45px;
+    margin-bottom: 50px;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+header h1 span {
+    color: #283848;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+header .rotate {
+    display: block;   
+}
+
+.section {
+    overflow: hidden;   
+}
+
+.section.gold {
+    background-color: #FAF6F0; 
+}
+
+.section.silver {
+    background-color: #C5CBCE;
+    padding-bottom: 0px;
+}
+
+.section.asbestos {
+    background-color: #8C9899;
+    color: #EFF2F3;
+}
+
+.features h4 {
+    text-transform: uppercase;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.features img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.features .row:first-child, .features .row:last-child {
+    margin-bottom: 0px;   
+}
+
+.features .row {
+    margin-bottom: 70px;   
+}
+
+.bigImage {
+    float: left;
+    overflow: hidden;
+    max-width: none;
+}
+
+.bigImage.left {
+    margin-left: -405px;
+}
+
+.bigImage.right {
+    margin-right: -405px;
+}
+
+.bigImage img {
+    display: block;
+    margin: auto;
+}
+
+.faq .panel {
+    border: 0px;
+    border-bottom: 2px solid #C5CBCE;
+    margin-bottom: 20px;
+}
+
+.faq .panel .panel-body {
+    padding: 20px;   
+}
+
+.faq .panel .panel-body *:last-child {    
+    margin-bottom: 0px;
+}
+
+.faq .panel-heading {
+    border-radius: 2px;
+    padding: 18px 15px;
+}
+
+.faq .panel-heading a {
+    font-family: "Lato", sans-serif;
+    font-size: 19px;
+    color: #EFF2F3;
+}
+
+@media all and (max-width: 1200px) {
+    .bigImage.left {
+        margin-left: -505px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .bigImage {
+        float: none;
+    }
+    .bigImage.left {
+        margin-left: 0px;
+    }
+    .bigImage.right {
+        margin-right: 0px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .section.silver {
+        padding-bottom: 50px;   
+    }
+}
+
+@media all and (max-width: 720px) {
+    header h1 {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    header h1 span {
+        font-size: 45px;
+    }
+}
+
+@media all and (max-width: 530px) {
+    .actions > * {
+        display: block;
+        width: 100%;
+        margin: 0px;
+    }
+    .actions > *:first-child {
+        margin-bottom: 10px;   
+    }
+    header .actions {
+        margin-bottom: 30px;   
+    }
+    header .appLogo {
+        width: 75px;   
+    }
+}
